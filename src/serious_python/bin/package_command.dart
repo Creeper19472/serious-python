@@ -487,7 +487,7 @@ class PackageCommand extends Command {
     for (var entity in directory.listSync()) {
       if (globs.any((g) => g.matches(entity.path.replaceAll("\\", "/"))) &&
           await entity.exists()) {
-        try {verbose("Deleting ${entity.path}");} catch (e) {}
+        verbose("Deleting ${entity.path}");
         await entity.delete(recursive: true);
       } else if (entity is Directory) {
         if (await cleanupDirRecursive(entity, globs)) {
