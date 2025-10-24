@@ -3,30 +3,6 @@ version '0.9.4'
 
 def python_version = '3.12'
 
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-        gradlePluginPortal()
-    }
-
-    dependencies {
-        // The Android Gradle Plugin knows how to build native code with the NDK.
-        classpath 'com.android.tools.build:gradle:9.1.0'
-        classpath 'de.undercouch:gradle-download-task:4.1.2'
-    }
-}
-
-rootProject.allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-
-apply plugin: 'com.android.library'
-apply plugin: 'de.undercouch.download'
-
 android {
     namespace "com.flet.serious_python_android"
     
