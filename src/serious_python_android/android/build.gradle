@@ -3,6 +3,12 @@ version '0.9.4'
 
 def python_version = '3.12'
 
+buildscript {
+    dependencies {
+        classpath 'de.undercouch:gradle-download-task:5.6.0'
+    }
+}
+
 android {
     namespace "com.flet.serious_python_android"
     
