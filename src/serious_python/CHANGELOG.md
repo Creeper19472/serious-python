@@ -1,6 +1,8 @@
 ## 0.9.4
 
 * 16 KB memory page support for Android 15+ (by [@ReYaNOW](https://github.com/ReYaNOW)).
+* Fix: Updated compileSdkVersion to pass Android builds
+* Fix: The version of the dependency `archive` was increased to `4.0.7` and code changes were made for migration.
 
 ## 0.9.3
 
