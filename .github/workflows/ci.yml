@@ -13,7 +13,7 @@ env:
   ROOT: "${{ github.workspace }}"
   SCRIPTS: "${{ github.workspace }}/.github/scripts"
   SERIOUS_PYTHON_SITE_PACKAGES: "${{ github.workspace }}/site-packages"
-  UV_PYTHON: "3.12"
+  UV_PYTHON: "3.14"
 
 jobs:
   macos:

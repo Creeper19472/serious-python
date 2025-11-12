@@ -1,7 +1,7 @@
 group 'com.flet.serious_python_android'
 version '0.9.4'
 
-def python_version = '3.12'
+def python_version = '3.14'
 
 buildscript {
     repositories {

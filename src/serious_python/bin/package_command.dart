@@ -18,8 +18,8 @@ const mobilePyPiUrl = "https://pypi.flet.dev";
 const pyodideRootUrl = "https://cdn.jsdelivr.net/pyodide/v0.27.7/full";
 const pyodideLockFile = "pyodide-lock.json";
 
-const buildPythonVersion = "3.12.9";
-const buildPythonReleaseDate = "20250205";
+const buildPythonVersion = "3.14.0";
+const buildPythonReleaseDate = "20251007";
 const defaultSitePackagesDir = "__pypackages__";
 const sitePackagesEnvironmentVariable = "SERIOUS_PYTHON_SITE_PACKAGES";
 const flutterPackagesFlutterEnvironmentVariable =

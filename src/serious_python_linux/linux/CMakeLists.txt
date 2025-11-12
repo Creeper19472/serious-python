@@ -8,7 +8,7 @@ cmake_minimum_required(VERSION 3.10)
 
 # Project-level configuration.
 set(PROJECT_NAME "serious_python_linux")
-set(PYTHON_VERSION "3.12")
+set(PYTHON_VERSION "3.14")
 set(PYTHON_ARCH ${CMAKE_HOST_SYSTEM_PROCESSOR})
 project(${PROJECT_NAME} LANGUAGES CXX)
 
@@ -53,7 +53,7 @@ target_include_directories(${PLUGIN_NAME} INTERFACE
   "${CMAKE_CURRENT_SOURCE_DIR}/include"
 )
 include_directories(
-  "${PYTHON_PACKAGE}/include/python3.12"
+  "${PYTHON_PACKAGE}/include/python3.14"
 )
 
 target_link_libraries(${PLUGIN_NAME} PRIVATE flutter)
@@ -67,11 +67,11 @@ target_link_libraries(${PLUGIN_NAME} PRIVATE
 # external build triggered from this build file.
 set(serious_python_linux_bundled_libraries
   "${PYTHON_PACKAGE}/lib/libpython3.so"
-  "${PYTHON_PACKAGE}/lib/libpython3.12.so.1.0"
+  "${PYTHON_PACKAGE}/lib/libpython3.14.so.1.0"
   PARENT_SCOPE
 )
 
-install(DIRECTORY "${PYTHON_PACKAGE}/lib/python3.12"
+install(DIRECTORY "${PYTHON_PACKAGE}/lib/python3.14"
   DESTINATION "${CMAKE_BINARY_DIR}/bundle")
 
 install(CODE "
