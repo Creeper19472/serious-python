@@ -538,7 +538,7 @@ class PackageCommand extends Command {
         } else if (Platform.isLinux && isArm64) {
           arch = 'aarch64-unknown-linux-gnu';
         } else if (Platform.isWindows) {
-          arch = 'x86_64-pc-windows-msvc-shared';
+          arch = 'x86_64-pc-windows-msvc'; // removing -shared: see astral-sh/python-build-standalone/releases:20250311
         }
 
         var pythonArchiveFilename =
