@@ -201,7 +201,7 @@ class PackageCommand extends Command {
 
       // Extra indexs
       List<String> extraPyPiIndexes = [mobilePyPiUrl];
-      extraPyPiIndexes.add("https://cfms-dev.github.io/platform-wheels/")
+      extraPyPiIndexes.add("https://cfms-dev.github.io/platform-wheels/");
       if (platform == "Pyodide") {
         pyodidePyPiServer = await startSimpleServer();
         extraPyPiIndexes.add(
