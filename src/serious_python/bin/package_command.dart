@@ -199,7 +199,7 @@ class PackageCommand extends Command {
 
       var junkFiles = isMobile ? junkFilesMobile : junkFilesDesktop;
 
-      // Extra indexs
+      // Extra indexes
       List<String> extraPyPiIndexes = [mobilePyPiUrl];
       extraPyPiIndexes.add("https://cfms-dev.github.io/platform-wheels/");
       if (platform == "Pyodide") {
