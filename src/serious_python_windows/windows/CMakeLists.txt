@@ -3,7 +3,6 @@
 # version, as doing so will cause the plugin to fail to compile for some
 # customers of the plugin.
 cmake_minimum_required(VERSION 3.14)
-set(CMAKE_CXX_STANDARD 23)
 
 # Project-level configuration.
 set(PROJECT_NAME "serious_python_windows")
