@@ -355,6 +355,7 @@ class PackageCommand extends Command {
               '-m',
               'pip',
               'install',
+              '--pre',
               '--upgrade',
               ...pipArgs,
               '--target',
