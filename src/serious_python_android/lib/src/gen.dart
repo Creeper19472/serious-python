@@ -25758,17 +25758,17 @@ const int PY_RELEASE_LEVEL_FINAL = 15;
 
 const int PY_MAJOR_VERSION = 3;
 
-const int PY_MINOR_VERSION = 12;
+const int PY_MINOR_VERSION = 14;
 
-const int PY_MICRO_VERSION = 3;
+const int PY_MICRO_VERSION = 2;
 
 const int PY_RELEASE_LEVEL = 15;
 
 const int PY_RELEASE_SERIAL = 0;
 
-const String PY_VERSION = '3.14.0';
+const String PY_VERSION = '3.14.2';
 
-const int PY_VERSION_HEX = 51249392;
+const int PY_VERSION_HEX = 51249904;
 
 const int ALIGNOF_LONG = 8;
 
