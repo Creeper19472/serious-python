@@ -3,7 +3,7 @@ String sitecustomizePy = """
 # The folder containing this file should be on your PYTHONPATH pip is invoked.
 
 custom_system = "{platform}"
-# custom_platform = "{tag}"
+custom_platform = "{tag}"
 custom_mac_ver = "{mac_ver}"
 
 import collections
