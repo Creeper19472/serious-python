@@ -25766,7 +25766,7 @@ const int PY_RELEASE_LEVEL = 15;
 
 const int PY_RELEASE_SERIAL = 0;
 
-const String PY_VERSION = '3.14.2';
+const String PY_VERSION = '3.14';
 
 const int PY_VERSION_HEX = 51249904;
 
