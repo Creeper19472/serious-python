@@ -25776,7 +25776,7 @@ const int ALIGNOF_MAX_ALIGN_T = 8;
 
 const int ALIGNOF_SIZE_T = 8;
 
-const int ANDROID_API_LEVEL = 21;
+const int ANDROID_API_LEVEL = 24;
 
 const int ENABLE_IPV6 = 1;
 
