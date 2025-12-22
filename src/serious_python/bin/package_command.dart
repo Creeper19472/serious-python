@@ -360,6 +360,8 @@ class PackageCommand extends Command {
               ...pipArgs,
               '--target',
               sitePackagesDir,
+              '--platform',
+              arch.value["tag"]!,
               ...requirements
             ], environment: pipEnv);
 
