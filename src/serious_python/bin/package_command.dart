@@ -345,6 +345,10 @@ class PackageCommand extends Command {
                   Platform.environment[allowSourceDistrosEnvironmentVariable]!
                 ]);
               }
+              pipArgs.addAll([
+                '--platform',
+                arch.value["tag"]!,
+              ]);
             }
 
             for (var index in extraPyPiIndexes) {
@@ -360,8 +364,6 @@ class PackageCommand extends Command {
               ...pipArgs,
               '--target',
               sitePackagesDir,
-              '--platform',
-              arch.value["tag"]!,
               ...requirements
             ], environment: pipEnv);
 
