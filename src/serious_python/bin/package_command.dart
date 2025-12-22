@@ -40,9 +40,9 @@ const platforms = {
     }
   },
   "Android": {
-    "arm64-v8a": {"tag": "android-24-arm64-v8a", "mac_ver": ""},
+    "arm64-v8a": {"tag": "android_24_arm64_v8a", "mac_ver": ""},
     // "armeabi-v7a": {"tag": "android-24-armeabi-v7a", "mac_ver": ""},
-    "x86_64": {"tag": "android-24-x86_64", "mac_ver": ""},
+    "x86_64": {"tag": "android_24_x86_64", "mac_ver": ""},
     // "x86": {"tag": "android-24-x86", "mac_ver": ""}
   },
   "Pyodide": {
